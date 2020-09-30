@@ -513,7 +513,7 @@ mark,
 
 .img-fluid {
   max-width: 500px;
-  height: 50px;
+  height: 130px;
 }
 
 .img-thumbnail {
@@ -650,8 +650,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
+  text-align: center;
 }
 
 .no-gutters {
@@ -10420,7 +10419,7 @@ a.text-dark:focus {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 4rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
