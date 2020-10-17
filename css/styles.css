@@ -147,6 +147,9 @@ dd {
   margin-bottom: 0.5rem;
   margin-left: 0;
 }
+li {
+  text-align: initial;
+}
 
 blockquote {
   margin: 0 0 1rem;
@@ -10483,7 +10486,7 @@ a.text-dark:focus {
   }
 }
 .page-section {
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
