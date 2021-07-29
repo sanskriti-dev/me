@@ -35,6 +35,19 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
+  <script>
+    window.addEventListener('load', function(e) {
+  window.applicationCache.addEventListener('updateready', function(e) {
+  if (window.applicationCache.status == window.applicationCache.UPDATEREADY) {
+    window.applicationCache.swapCache();
+    window.location.reload();
+  } else {
+    // Manifest didn't changed. Nothing new to server.
+  }
+}, false);
+
+}, false);
+    </script>
   <body id="page-top">
     <!-- Navigation-->
     <nav
