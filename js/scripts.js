@@ -113,10 +113,3 @@ anime
     easing: "easeOutExpo",
     delay: 1400,
   });
-
-anime({
-  targets: ".ml8 .circle-dark-dashed",
-  rotateZ: 360,
-  easing: "linear",
-  loop: false,
-});
